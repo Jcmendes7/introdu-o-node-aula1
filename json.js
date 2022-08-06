@@ -15,3 +15,6 @@ let filmes = [{
 
 let jsonFilmes = JSON.stringify(filmes)
 console.log(jsonFilmes)
+
+let objetoFilmes = JSON.parse(jsonFilmes)
+console.log(objetoFilmes)
