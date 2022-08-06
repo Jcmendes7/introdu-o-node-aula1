@@ -24,3 +24,7 @@ console.log(book)
 book.title = "Senhor dos Aneis";
 console.log(book)
 console.log(book.title)
+//module date-fns
+const {format} = require('date-fns');
+const dataAtual = format(new Date(), 'dd/MM/yyyy H:mm:ss')
+console.log(dataAtual)
