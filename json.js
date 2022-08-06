@@ -13,6 +13,8 @@ let filmes = [{
     diretor: " Francis Ford Coppola"
 }]
 
+/*JSON(JavaScript Object Notation) -> Usado para trocar dado em diferntes
+Sistemas*/
 let jsonFilmes = JSON.stringify(filmes)
 console.log(jsonFilmes)
 
