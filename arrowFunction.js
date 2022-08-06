@@ -23,3 +23,4 @@ console.log(book)
 
 book.title = "Senhor dos Aneis";
 console.log(book)
+console.log(book.title)
